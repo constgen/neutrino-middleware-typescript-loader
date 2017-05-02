@@ -47,7 +47,7 @@ module.exports = function (neutrino, options = {}) {
 				usePrecompiledFiles: false,
 
 						/* Compiler options */
-				// baseUrl: './scr',
+				baseUrl: neutrino.options.source,
 				module: 'es2015', // 'commonjs'
 				target: 'es2016', // 'es5'
 				sourceMap: true,
@@ -63,7 +63,7 @@ module.exports = function (neutrino, options = {}) {
 				],
 				allowSyntheticDefaultImports: true,
 				experimentalDecorators: true,
-				noImplicitAny: true,
+				noImplicitAny: false,
 				noImplicitReturns: false,
 				noImplicitUseStrict: false,
 				noImplicitThis: false,
@@ -71,7 +71,7 @@ module.exports = function (neutrino, options = {}) {
 				noUnusedParameters: true,
 				strictNullChecks: true,
 				removeComments: false,
-				skipLibCheck: true,
+				skipLibCheck: false,
 				preserveConstEnums: false,
 				stripInternal: false,
 				newLine: 'lf',

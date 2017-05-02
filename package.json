@@ -34,6 +34,7 @@
 	"files": [
 		"*.js",
 		"README.md",
+		"LICENSE",
 		"package.json"
 	],
 	"engines": {

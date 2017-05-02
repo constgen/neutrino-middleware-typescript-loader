@@ -1,0 +1,43 @@
+{
+	"name": "neutrino-middleware-typescript-loader",
+	"version": "0.1.0",
+	"description": "Neutrino TypeScript loader middleware",
+	"main": "index.js",
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/constgen/neutrino-middleware-typescript-loader.git"
+	},
+	"homepage": "https://github.com/constgen/neutrino-middleware-typescript-loader",
+	"keywords": [
+		"neutrino",
+		"neutrino-preset",
+		"neutrino-middlware",
+		"webpack",
+		"typescript",
+		"typescript-loader"
+	],
+	"dependencies": {
+		"deepmerge": "1.3.2",
+		"arrify": "~1.0.1",
+		"awesome-typescript-loader": "3.1.3"
+	},
+	"devDependencies": {
+		"typescript": "^2.0.0",
+		"eslint": "~3.19.0"
+	},
+	"peerDependencies": {
+		"typescript": "^2.0.0",
+		"neutrino": "^5.0.0"
+	},
+	"files": [
+		"*.js",
+		"README.md",
+		"package.json"
+	],
+	"engines": {
+		"node": ">=6.9.0",
+		"npm": ">=3.0.0"
+	}
+}
